@@ -1,17 +1,14 @@
 package com.demo;
 
-import com.demo.beans.GreatMatrimonyQuest;
-import com.demo.beans.Knight;
-import com.demo.beans.RescuingDamselQuest;
+import com.demo.beans.Person;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        context.registerShutdownHook();
-
-        Knight knight = context.getBean(Knight.class);
-        System.out.println(knight.goQuest());
+        Person person = context.getBean(Person.class);
+        System.out.println(person.personInfo());
+        context.close();
     }
 }
