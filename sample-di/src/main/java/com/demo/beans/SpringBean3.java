@@ -8,11 +8,15 @@ import org.springframework.stereotype.Component;
 public class SpringBean3 implements MyInterface, Ordered {
 
     public SpringBean3() {
-        System.out.println("SpringBean3");
+        //System.out.println("SpringBean3");
     }
 
     @Override
     public int getOrder() {
         return 1;
+    }
+
+    public String toString() {
+        return "SpringBean3";
     }
 }

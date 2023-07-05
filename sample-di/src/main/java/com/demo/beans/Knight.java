@@ -31,7 +31,9 @@ public class Knight {
     }
 
     @Autowired
-    public void setSpringBean(Collection<MyInterface> list){
-
+    public void setSpringBean(List<MyInterface> list){
+        for(MyInterface obj:list){
+            System.out.println(obj);
+        }
     }
 }
