@@ -13,6 +13,7 @@
         <module>person-di</module>
         <module>bean-scoped</module>
         <module>altering-behavior</module>
+        <module>property-source</module>
     </modules>
 
     <properties>
