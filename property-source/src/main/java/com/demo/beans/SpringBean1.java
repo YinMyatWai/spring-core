@@ -1,5 +1,7 @@
 package com.demo.beans;
 
+import com.ocpsoft.pretty.time.PrettyTime;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -13,6 +15,10 @@ public class SpringBean1 {
 
     @Value("${app.vm.name}")
     private String vm;
+
+    @Autowired
+    private PrettyTime prettyTime;
+
 
     public void print(){
         System.out.println("Invoice:"+invoice);

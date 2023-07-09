@@ -9,9 +9,20 @@
         <module name="property-source" />
         <module name="altering-behavior" />
         <module name="person-di" />
+        <module name="two-proxy" />
+        <module name="spel-demo" />
+        <module name="profile-demo" />
         <module name="sample-di" />
         <module name="bean-scoped" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-boot-profile" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-boot-profile" options="-parameters" />
+    </option>
   </component>
 </project>

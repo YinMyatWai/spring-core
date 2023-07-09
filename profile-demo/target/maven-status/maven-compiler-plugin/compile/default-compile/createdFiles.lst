@@ -1,0 +1,14 @@
+com\demo\format\FileReportFormatter.class
+com\demo\repository\DbReportRepository.class
+com\demo\Main.class
+com\demo\repository\FileReportRepository.class
+com\demo\print\ReportPrinter.class
+com\demo\repository\ReportRepository.class
+com\demo\MySpringBean.class
+com\demo\service\ComplexAction.class
+com\demo\ds\Report.class
+com\demo\format\DbReportFormatter.class
+com\demo\print\FileReportPrinter.class
+com\demo\print\DbReportPrinter.class
+com\demo\format\ReportFormatter.class
+com\demo\AppConfig.class

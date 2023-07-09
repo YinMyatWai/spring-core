@@ -18,7 +18,7 @@ public class Person {
         System.out.println("PostConstruct::Address:"+address.getClass().getSimpleName());
     }
 
-    private final Address address;
+    private  Address address;
 
     public Person(Address address) {
         this.address = address;

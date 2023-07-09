@@ -1,0 +1,14 @@
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\MySpringBean.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\service\ComplexAction.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\AppConfig.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\repository\DbReportRepository.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\print\FileReportPrinter.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\print\DbReportPrinter.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\print\ReportPrinter.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\ds\Report.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\format\DbReportFormatter.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\format\ReportFormatter.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\repository\ReportRepository.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\format\FileReportFormatter.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\repository\FileReportRepository.java
+D:\Spring Revision Workspace\spring-core\profile-demo\src\main\java\com\demo\Main.java
